@@ -1,0 +1,115 @@
+name: Maya APIs
+description: A collection of APIs for Maya, the popular 3D animation and modeling software
+image: https://www.autodesk.com/products/maya/overview
+tags:
+- 3D
+- Animation
+- Modeling
+- VFX
+- CGI
+created: '2024'
+modified: '2024'
+url: https://www.autodesk.com/products/maya/overview
+specificationVersion: '0.16'
+apis:
+- name: Maya Python API 2.0
+  description: Modern Python API for Maya scripting and plugin development
+  image: https://www.autodesk.com/products/maya/overview
+  humanUrl: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseUrl: https://localhost
+  tags:
+  - Python
+  - Scripting
+  - Plugins
+  - Automation
+  properties:
+  - type: X-documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_Maya_Python_API_Maya_Python_API_2_0_html
+  - type: X-api-reference
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_py_ref_index_html
+  contact:
+  - FN: Autodesk Support
+    email: maya.support@autodesk.com
+    X-twitter: autodesk
+- name: Maya C++ API
+  description: C++ API for high-performance Maya plugin development
+  image: https://www.autodesk.com/products/maya/overview
+  humanUrl: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseUrl: https://localhost
+  tags:
+  - C++
+  - Plugins
+  - Performance
+  - SDK
+  properties:
+  - type: X-documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_SDK_html
+  - type: X-api-reference
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_cpp_ref_index_html
+  contact:
+  - FN: Autodesk Support
+    email: maya.support@autodesk.com
+- name: Maya Commands (MEL)
+  description: Maya Embedded Language command API for scripting
+  image: https://www.autodesk.com/products/maya/overview
+  humanUrl: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseUrl: https://localhost
+  tags:
+  - MEL
+  - Scripting
+  - Commands
+  properties:
+  - type: X-documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__CommandsPython_index_html
+  - type: X-api-reference
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__Commands_index_html
+  contact:
+  - FN: Autodesk Support
+    email: maya.support@autodesk.com
+- name: Maya USD API
+  description: Universal Scene Description integration API for Maya
+  image: https://www.autodesk.com/products/maya/overview
+  humanUrl: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseUrl: https://localhost
+  tags:
+  - USD
+  - Pipeline
+  - Interchange
+  - Pixar
+  properties:
+  - type: X-documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_Merged_USD_SDK_html
+  - type: X-getting-started
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-02B222AB-0D49-4D41-B785-E1F5EECF7DF9
+  contact:
+  - FN: Autodesk Support
+    email: maya.support@autodesk.com
+- name: Maya Batch Rendering API
+  description: API for batch rendering and render farm integration
+  image: https://www.autodesk.com/products/maya/overview
+  humanUrl: https://help.autodesk.com/view/MAYAUL/2024/ENU/
+  baseUrl: https://localhost
+  tags:
+  - Rendering
+  - Batch
+  - Pipeline
+  properties:
+  - type: X-documentation
+    url: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-C99B0FD5-BE5F-4AC1-BA3B-566485FE5EE3
+  contact:
+  - FN: Autodesk Support
+    email: maya.support@autodesk.com
+maintainers:
+- FN: Autodesk Maya Team
+  email: maya.support@autodesk.com
+  X-twitter: autodesk
+  X-github: autodesk
+common:
+- type: X-portal
+  url: https://www.autodesk.com/developer-network/platform-technologies/maya
+- type: X-support
+  url: https://forums.autodesk.com/t5/maya-forum/bd-p/area-c-autodesk-maya
+- type: X-learning
+  url: https://area.autodesk.com/maya/
+- type: X-sdk-download
+  url: https://www.autodesk.com/developer-network/platform-technologies/maya
