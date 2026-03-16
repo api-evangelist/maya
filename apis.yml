@@ -1,4 +1,4 @@
-name: Maya APIs
+name: Maya
 description: A collection of APIs for Maya, the popular 3D animation and modeling software
   developed by Autodesk, providing scripting and plugin development capabilities
   through Python, C++, MEL, and .NET interfaces.
