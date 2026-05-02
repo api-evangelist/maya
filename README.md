@@ -1,102 +1,61 @@
-# Maya APIs (maya)
-A collection of APIs for Maya, the popular 3D animation and modeling software
+# Maya (maya)
 
-**URL:** [Visit APIs.json URL](https://www.autodesk.com/products/maya/overview)
+A collection of APIs for Maya, the popular 3D animation and modeling software developed by Autodesk, providing scripting and plugin development capabilities through Python, C++, MEL, and .NET interfaces.
 
-## Tags:
+**URL:** [https://www.autodesk.com/products/maya/overview](https://www.autodesk.com/products/maya/overview)
 
- - 3D, Animation, Modeling, VFX, CGI
+## Tags
+
+- 3D, Animation, Autodesk, CGI, Modeling, Rendering, Scripting, VFX
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Maya Python API 2.0
-Modern Python API for Maya scripting and plugin development
+Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
 
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2024/ENU/](https://help.autodesk.com/view/MAYAUL/2024/ENU/)
-
-
-#### Tags:
-
- - Python, Scripting, Plugins, Automation
-
-#### Properties
-
-- [X-documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_Maya_Python_API_Maya_Python_API_2_0_html)
-- [X-api-reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_py_ref_index_html)
+### Maya Python API 1.0
+Original Python wrapper for the Maya C++ API providing access to OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX, OpenMayaRender, and OpenMayaCloth modules.
 
 ### Maya C++ API
-C++ API for high-performance Maya plugin development
-
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2024/ENU/](https://help.autodesk.com/view/MAYAUL/2024/ENU/)
-
-
-#### Tags:
-
- - C++, Plugins, Performance, SDK
-
-#### Properties
-
-- [X-documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_MERGED_Maya_SDK_html)
-- [X-api-reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_cpp_ref_index_html)
+C++ API for high-performance Maya plugin development, providing low-level access to Maya internals through OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX, and OpenMayaRender libraries.
 
 ### Maya Commands (MEL)
-Maya Embedded Language command API for scripting
+Maya Embedded Language command API for scripting and automating tasks within Maya using the built-in MEL interpreter.
 
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2024/ENU/](https://help.autodesk.com/view/MAYAUL/2024/ENU/)
-
-
-#### Tags:
-
- - MEL, Scripting, Commands
-
-#### Properties
-
-- [X-documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__CommandsPython_index_html)
-- [X-api-reference](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=__Commands_index_html)
+### Maya Commands (Python)
+Python command interface (maya.cmds) providing access to all MEL commands through Python, enabling scripting and automation with Python syntax.
 
 ### Maya USD API
-Universal Scene Description integration API for Maya
-
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2024/ENU/](https://help.autodesk.com/view/MAYAUL/2024/ENU/)
-
-
-#### Tags:
-
- - USD, Pipeline, Interchange, Pixar
-
-#### Properties
-
-- [X-documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=Maya_SDK_Merged_USD_SDK_html)
-- [X-getting-started](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-02B222AB-0D49-4D41-B785-E1F5EECF7DF9)
+Universal Scene Description integration API for Maya, enabling USD stage loading, editing, and interchange within the Maya viewport.
 
 ### Maya Batch Rendering API
-API for batch rendering and render farm integration
+API for batch rendering and render farm integration, enabling automated rendering workflows and pipeline integration.
 
-**Human URL:** [https://help.autodesk.com/view/MAYAUL/2024/ENU/](https://help.autodesk.com/view/MAYAUL/2024/ENU/)
+### Maya Hydra API
+Maya plugin API that replaces the main Maya viewport with a Hydra viewer, enabling custom render delegate integration for viewport rendering.
 
-
-#### Tags:
-
- - Rendering, Batch, Pipeline
-
-#### Properties
-
-- [X-documentation](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-C99B0FD5-BE5F-4AC1-BA3B-566485FE5EE3)
+### Autodesk Platform Services - Maya API
+Cloud-based API for Maya through Autodesk Platform Services (APS), providing web service integration, OAuth authentication, and cloud workflow capabilities for Maya development.
 
 ## Common Properties
 
-- [X-portal](https://www.autodesk.com/developer-network/platform-technologies/maya)
-- [X-support](https://forums.autodesk.com/t5/maya-forum/bd-p/area-c-autodesk-maya)
-- [X-learning](https://area.autodesk.com/maya/)
-- [X-sdk-download](https://www.autodesk.com/developer-network/platform-technologies/maya)
+- [Portal](https://www.autodesk.com/developer-network/platform-technologies/maya)
+- [Developer Help Center](https://help.autodesk.com/view/MAYADEV/2026/ENU/)
+- [Documentation](https://help.autodesk.com/view/MAYAUL/2026/ENU/)
+- [Support](https://forums.autodesk.com/t5/maya-forum/bd-p/area-c-autodesk-maya)
+- [Learning](https://area.autodesk.com/maya/)
+- [SDK Download](https://www.autodesk.com/developer-network/platform-technologies/maya)
+- [GitHub](https://github.com/autodesk)
+- [Developer Network GitHub](https://github.com/ADN-DevTech)
+- [Platform Services](https://aps.autodesk.com/)
+- [Developer Blog](https://blog.autodesk.io/maya-2026-api-update-guide/)
 
 ## Maintainers
 
-**FN:** Autodesk Maya Team
-
-**Email:** maya.support@autodesk.com
+- **FN:** Kin Lane
+- **Email:** kin@apievangelist.com
