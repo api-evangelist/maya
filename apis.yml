@@ -1,5 +1,17 @@
 name: Maya
 description: A collection of APIs for Maya, the popular 3D animation and modeling software developed by Autodesk, providing scripting and plugin development capabilities through Python, C++, MEL, and .NET interfaces.
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.autodesk.com/products/maya/overview
 tags:
   - 3D
