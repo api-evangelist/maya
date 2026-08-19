@@ -25,7 +25,7 @@ tags:
 created: '2024'
 modified: '2026-04-28'
 url: https://www.autodesk.com/products/maya/overview
-specificationVersion: '0.18'
+specificationVersion: '0.23'
 apis:
   - name: Maya Python API 2.0
     description: Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
