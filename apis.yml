@@ -168,6 +168,11 @@ apis:
     baseUrl: https://localhost
     tags:
       - Hydra
+      - Open-Source
+      - Rendering
+      - Viewport
+    tags_raw:
+      - Hydra
       - OpenSource
       - Rendering
       - Viewport
@@ -183,6 +188,12 @@ apis:
     humanUrl: https://aps.autodesk.com/developer/overview/maya
     baseUrl: https://aps.autodesk.com
     tags:
+      - APS
+      - Cloud
+      - Authentication
+      - Platform
+      - REST
+    tags_raw:
       - APS
       - Cloud
       - OAuth
