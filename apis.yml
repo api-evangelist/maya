@@ -179,7 +179,7 @@ apis:
     baseUrl: https://localhost
     tags:
       - Hydra
-      - Open-Source
+      - OpenSource
       - Rendering
       - Viewport
     tags_raw:
