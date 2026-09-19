@@ -144,6 +144,12 @@ apis:
     tags:
       - Interchange
       - OpenUSD
+      - Pipelines
+      - Pixar
+      - USD
+    tags_raw:
+      - Interchange
+      - OpenUSD
       - Pipeline
       - Pixar
       - USD
@@ -163,6 +169,10 @@ apis:
     humanUrl: https://help.autodesk.com/view/MAYAUL/2024/ENU/
     baseUrl: https://localhost
     tags:
+      - Batch
+      - Pipelines
+      - Rendering
+    tags_raw:
       - Batch
       - Pipeline
       - Rendering
