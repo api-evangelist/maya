@@ -1,4 +1,4 @@
-# Maya (maya)
+# Maya
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,60 +66,60 @@
 
 A collection of APIs for Maya, the popular 3D animation and modeling software developed by Autodesk, providing scripting and plugin development capabilities through Python, C++, MEL, and .NET interfaces.
 
-**URL:** [https://www.autodesk.com/products/maya/overview](https://www.autodesk.com/products/maya/overview)
+**Areas:** 3D · Animation · Autodesk · CGI · Modeling · Rendering · Scripting · VFX
 
-## Tags
+## Maya on APIs.io
 
-- 3D, Animation, Autodesk, CGI, Modeling, Rendering, Scripting, VFX
+Everything profiled for Maya is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/maya/](https://apis.io/providers/maya/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (9)
 
-- **Created:** 2024
-- **Modified:** 2026-04-28
+- [Maya Python API 2.0](https://apis.io/apis/maya/maya-python-api-20/) — Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
+- [Maya Python API 1.0](https://apis.io/apis/maya/maya-python-api-10/) — Original Python wrapper for the Maya C++ API providing access to OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX, OpenMayaRender, and OpenMayaCloth modules.
+- [Maya C++ API](https://apis.io/apis/maya/maya-c-api/) — C++ API for high-performance Maya plugin development, providing low-level access to Maya internals through OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX,…
+- [Maya Commands (MEL)](https://apis.io/apis/maya/maya-commands-mel/) — Maya Embedded Language command API for scripting and automating tasks within Maya using the built-in MEL interpreter.
+- [Maya Commands (Python)](https://apis.io/apis/maya/maya-commands-python/) — Python command interface (maya.cmds) providing access to all MEL commands through Python, enabling scripting and automation with Python syntax.
+- [Maya USD API](https://apis.io/apis/maya/maya-usd-api/) — Universal Scene Description integration API for Maya, enabling USD stage loading, editing, and interchange within the Maya viewport.
+- [Maya Batch Rendering API](https://apis.io/apis/maya/maya-batch-rendering-api/) — API for batch rendering and render farm integration, enabling automated rendering workflows and pipeline integration.
+- [Maya Hydra API](https://apis.io/apis/maya/maya-hydra-api/) — Maya plugin API that replaces the main Maya viewport with a Hydra viewer, enabling custom render delegate integration for viewport rendering.
+- [Autodesk Platform Services - Maya API](https://apis.io/apis/maya/autodesk-platform-services-maya-api/) — Cloud-based API for Maya through Autodesk Platform Services (APS), providing web service integration, OAuth authentication, and cloud workflow capabilities…
 
-## APIs
+### Published properties
 
-### Maya Python API 2.0
-Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Maya Python API 1.0
-Original Python wrapper for the Maya C++ API providing access to OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX, OpenMayaRender, and OpenMayaCloth modules.
+#### Plans and pricing (1)
 
-### Maya C++ API
-C++ API for high-performance Maya plugin development, providing low-level access to Maya internals through OpenMaya, OpenMayaUI, OpenMayaAnim, OpenMayaFX, and OpenMayaRender libraries.
+Published plans, tiers and prices.
 
-### Maya Commands (MEL)
-Maya Embedded Language command API for scripting and automating tasks within Maya using the built-in MEL interpreter.
+- [Maya Plans Pricing](https://apis.io/plans/maya/maya-plans-pricing/)
 
-### Maya Commands (Python)
-Python command interface (maya.cmds) providing access to all MEL commands through Python, enabling scripting and automation with Python syntax.
+#### Rate limits (1)
 
-### Maya USD API
-Universal Scene Description integration API for Maya, enabling USD stage loading, editing, and interchange within the Maya viewport.
+Published request limits.
 
-### Maya Batch Rendering API
-API for batch rendering and render farm integration, enabling automated rendering workflows and pipeline integration.
+- [Maya Rate Limits](https://apis.io/rate-limits/maya/maya-rate-limits/)
 
-### Maya Hydra API
-Maya plugin API that replaces the main Maya viewport with a Hydra viewer, enabling custom render delegate integration for viewport rendering.
+#### FinOps (1)
 
-### Autodesk Platform Services - Maya API
-Cloud-based API for Maya through Autodesk Platform Services (APS), providing web service integration, OAuth authentication, and cloud workflow capabilities for Maya development.
+What the API costs to run, by operation.
 
-## Common Properties
+- [Maya Finops](https://apis.io/finops/maya/maya-finops/)
 
-- [Portal](https://www.autodesk.com/developer-network/platform-technologies/maya)
-- [Developer Help Center](https://help.autodesk.com/view/MAYADEV/2026/ENU/)
-- [Documentation](https://help.autodesk.com/view/MAYAUL/2026/ENU/)
-- [Support](https://forums.autodesk.com/t5/maya-forum/bd-p/area-c-autodesk-maya)
-- [Learning](https://area.autodesk.com/maya/)
-- [SDK Download](https://www.autodesk.com/developer-network/platform-technologies/maya)
-- [GitHub](https://github.com/autodesk)
-- [Developer Network GitHub](https://github.com/ADN-DevTech)
-- [Platform Services](https://aps.autodesk.com/)
-- [Developer Blog](https://blog.autodesk.io/maya-2026-api-update-guide/)
+## API Evangelist rating
 
-## Maintainers
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Maya: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/maya/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
